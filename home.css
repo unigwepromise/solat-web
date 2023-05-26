@@ -1,0 +1,66 @@
+body{
+margin-top: 0%;
+padding: 0px;
+font-size: 19px;
+background-image: url(pexels-stein-egil-liland-1933320.jpg)  ;
+
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+color: white;
+text-shadow: 2px 2px black;
+}       
+h1{
+    text-align: center;
+    
+}
+
+
+.nav{
+    display: flex;
+    color: aqua;
+}
+
+.nav1 img{
+    width: 47px;
+}
+.nav1 img:hover{
+    width: 50px;
+transition: 0.3s;
+
+}
+.nav2 ul li{
+    display: inline inline-block;
+    margin: 0 20px;
+    list-style-type: none;
+    float: left;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+}
+.nav2 ul li:hover{
+background: url(pexels-stein-egil-liland-1933320.jpg);
+background-size: cover;
+background-attachment: fixed;
+border-radius: 10px;
+}
+a{
+color: white ;
+text-decoration: none;
+text-transform: uppercase;
+}
+.active{
+background: url(pexels-stein-egil-liland-1933320.jpg);
+background-size: contain;
+background-position: center;
+background-attachment: fixed; 
+
+} 
+@media only screen and (max-width:42) {
+body{
+    
+}
+}
+@media screen and() {
+    
+}
