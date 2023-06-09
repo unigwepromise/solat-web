@@ -1,9 +1,9 @@
 body{
-margin-top: 0%;
+margin-top: 1%;
 padding: 0px;
 font-size: 19px;
-background-image: url(pexels-stein-egil-liland-1933320.jpg)  ;
-
+background-image: linear-gradient( rgba(13, 13, 14, 0.7)50%, rgba(13, 13, 14, 0.7)50% ),
+ url(istockphoto-1305990690-1024x1024.jpg) ;
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
@@ -19,48 +19,44 @@ h1{
 .nav{
     display: flex;
     color: aqua;
+
 }
 
 .nav1 img{
-    width: 47px;
+    width: 60px;
+    
 }
 .nav1 img:hover{
-    width: 50px;
+    width: 70px;
 transition: 0.3s;
-
 }
 .nav2 ul li{
-    display: inline inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
     list-style-type: none;
     float: left;
-    justify-content: space-between;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 5px;
+   
 }
 .nav2 ul li:hover{
-background: url(pexels-stein-egil-liland-1933320.jpg);
-background-size: cover;
-background-attachment: fixed;
-border-radius: 10px;
+
+    background-size: cover;
+
 }
 a{
-color: white ;
+color: white;
 text-decoration: none;
-text-transform: uppercase;
+}
+a:hover{
+color: orangered;
+transition: 0.3s;
+width: 60px ;
 }
 .active{
-background: url(pexels-stein-egil-liland-1933320.jpg);
-background-size: contain;
-background-position: center;
-background-attachment: fixed; 
 
+border-radius: 10px;
+color: grey;
 } 
-@media only screen and (max-width:42) {
-body{
-    
-}
-}
-@media screen and() {
-    
+button{
+border-radius: 5px;
+
 }
